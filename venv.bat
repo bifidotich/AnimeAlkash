@@ -1,0 +1,5 @@
+cd /d %~dp0
+call venv\Scripts\activate.bat 
+call python.exe -m pip install --upgrade pip
+
+cmd.exe
